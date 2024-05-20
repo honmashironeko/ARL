@@ -147,6 +147,7 @@ chmod +x ./docker/worker/gen_crt.sh
 
 cd /opt/ARL/
 
+chmod +x /opt/ARL/app/tools/massdns
 
 if [ ! -f /etc/systemd/system/arl-web.service ]; then
   echo  "copy arl-web.service"
